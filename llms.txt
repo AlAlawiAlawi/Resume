@@ -1,0 +1,26 @@
+# Alawi AlAlawi
+
+> Digitalization Manager at BMW Group KSA, Riyadh, Saudi Arabia. Fourteen years in automotive
+> retail, working the seam where dealer management systems, customer data platforms, contact
+> center operations and OEM retail standards have to agree on one customer record.
+
+Canonical entity: https://alalawialawi.github.io/Resume/#person
+
+## Profile
+
+- [Profile and career record](https://alalawialawi.github.io/Resume/): scope, selected work, career timeline and capabilities.
+
+## Writing
+
+- [The constraint on customer-facing AI in Saudi automotive is consent lineage, not model quality](https://alalawialawi.github.io/Resume/writing/consent-lineage-limits-automotive-ai/): why provable consent, not model quality, bounds what an AI agent can act on under the Saudi PDPL.
+- [The agency model did not fail on retail format. It failed on data governance](https://alalawialawi.github.io/Resume/writing/agency-model-failed-on-data-governance/): why the same retail format produced opposite outcomes at Volkswagen and Mercedes-Benz.
+- [In a contracting car market, share moves to whoever loses the fewest customers](https://alalawialawi.github.io/Resume/writing/contracting-market-retention-beats-acquisition/): retention signals in the DMS, and why duplicate records make them unmeasurable.
+- [With most Saudi car purchases financed, the finance step owns the lead](https://alalawialawi.github.io/Resume/writing/finance-step-owns-the-automotive-lead/): why the digital journey answers the affordability question last.
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/alawialalawi/)
+- [Al Riyadh — Customer Experience Automation and AI](https://www.alriyadh.com/2160210)
+- [Asdaf News — SAP technology supports BMW Group KSA in AI-powered customer engagement](https://asdafnews.com/sap-technology-supports-bmw-group-ksa-in-automotive-customer-engagement-with-ai-powered-personalization/)
+- [Emarsys — Driving automotive customer engagement with AI and automation](https://emarsys.com/learn/blog/driving-auto-motive-customer-engagement-with-ai-and-automation/)
+- [Emarsys — Unlocking the future of automotive sales with AI](https://emarsys.com/learn/webinars/unlocking-the-future-of-automotive-sales-with-ai/)
