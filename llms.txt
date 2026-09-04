@@ -23,13 +23,6 @@ Canonical entity: https://alalawialawi.github.io/Resume/#person
 
 - [Profile and career record](https://alalawialawi.github.io/Resume/): scope, selected work, career timeline and capabilities.
 
-## Writing
-
-- [The constraint on customer-facing AI in Saudi automotive is consent lineage, not model quality](https://alalawialawi.github.io/Resume/writing/consent-lineage-limits-automotive-ai/): why provable consent, not model quality, bounds what an AI agent can act on under the Saudi PDPL.
-- [The agency model did not fail on retail format. It failed on data governance](https://alalawialawi.github.io/Resume/writing/agency-model-failed-on-data-governance/): why the same retail format produced opposite outcomes at Volkswagen and Mercedes-Benz.
-- [In a contracting car market, share moves to whoever loses the fewest customers](https://alalawialawi.github.io/Resume/writing/contracting-market-retention-beats-acquisition/): retention signals in the DMS, and why duplicate records make them unmeasurable.
-- [With most Saudi car purchases financed, the finance step owns the lead](https://alalawialawi.github.io/Resume/writing/finance-step-owns-the-automotive-lead/): why the digital journey answers the affordability question last.
-
 ## Elsewhere
 
 - [LinkedIn](https://www.linkedin.com/in/alawialalawi/)
