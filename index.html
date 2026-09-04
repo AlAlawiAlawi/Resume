@@ -334,23 +334,43 @@
   /* Two columns on desktop so the hero fills the width and the face is the
      first thing a recruiter sees. Collapses to one column below 900px, with
      the portrait above the name. */
+  /* The portrait is stretched to the text column's height rather than given a
+     fixed aspect ratio: a 420px-wide 3/4 image is 560px tall regardless of how
+     the prose reflows, so it overhung the copy top and bottom. Letting the grid
+     row set the height and having object-fit crop keeps the two columns level
+     at every desktop width. */
   .hero-grid {
     display: grid;
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
     gap: clamp(2rem, 5vw, 4.5rem);
-    align-items: center;
+    align-items: stretch;
   }
   .hero-portrait {
     width: 100%;
     max-width: 420px;
-    aspect-ratio: 3 / 4;
+    height: 100%;
+    min-height: 400px;
+    max-height: 700px;
     object-fit: cover;
+    object-position: center 22%;
     border: 1px solid var(--ink-12);
     justify-self: end;
   }
+  /* Single column below 900px: full-bleed 4/3 crop above the name. A capped
+     260px box left-aligned in a 375px column read as misaligned rather than
+     deliberate, and a full-width 3/4 crop would cost ~500px before the h1. */
   @media (max-width: 900px) {
     .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
-    .hero-portrait { max-width: 260px; justify-self: start; order: -1; }
+    .hero-portrait {
+      order: -1;
+      justify-self: stretch;
+      max-width: 100%;
+      height: auto;
+      min-height: 0;
+      max-height: none;
+      aspect-ratio: 4 / 3;
+      object-position: center 20%;
+    }
   }
   /* Visual blocks run the full container; only prose stays capped. */
   .media-wide { max-width: 100%; }
