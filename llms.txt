@@ -2,7 +2,20 @@
 
 > Digitalization Manager at BMW Group KSA, Riyadh, Saudi Arabia. Fourteen years in automotive
 > retail, working the seam where dealer management systems, customer data platforms, contact
-> center operations and OEM retail standards have to agree on one customer record.
+> center operations and OEM retail standards have to agree on one customer record. Launched
+> Noor, the AI customer-engagement agent live on the BMW and MINI Saudi Arabia websites since
+> 7 July 2026 and on WhatsApp since 8 August 2026.
+
+## Firsts
+
+- Leading importer in the GCC running agentic AI across website widget, WhatsApp, Facebook and Instagram as a unified omnichannel experience. The agent, Noor, serves live new-car stock with options detail, exterior and interior imagery, installment plans and offers, test-drive requests, service-appointment booking, general requests and complaint capture, in Arabic and English.
+- First marketing automation engine in Saudi Arabia built on SAP Customer Data Platform and SAP Emarsys Customer Engagement.
+- Recognized by Jaguar Land Rover MENAP, December 2014, as among the first importers in the region to complete its CRM data integration.
+
+## Credentials
+
+- CFA Program Level I, CFA Institute, June 2019 - top 10th percentile.
+- BSc Business Informatics, AMA International University Bahrain, 2011.
 
 Canonical entity: https://alalawialawi.github.io/Resume/#person
 
@@ -20,6 +33,9 @@ Canonical entity: https://alalawialawi.github.io/Resume/#person
 ## Elsewhere
 
 - [LinkedIn](https://www.linkedin.com/in/alawialalawi/)
+- [SAP Emarsys webinar write-up](https://ecommercefastlane.com/driving-the-future-of-automotive-customer-engagement-with-ai-and-automation/): names him as Digitalization Manager and attributes the results section to him, including real-time eligibility and suppression.
+- [SAP Emarsys press release](https://emarsys.com/press-release/mohamed-yousuf-naghi-motors-bmw-group-ksa-transforms-automotive-customer-engagement-with-ai-powered-personalization/): the same 10 November 2025 release on the vendor's own domain.
+- [SAP News MENA - Mohamed Yousuf Naghi Motors, BMW Group KSA transforms automotive customer engagement with AI-powered personalization](https://news.sap.com/mena/2025/11/mohamed-yousuf-naghi-motors-bmw-group-ksa-transforms-automotive-customer-engagement-with-ai-powered-personalization/): SAP's own press release, 10 November 2025, quoting him twice by name and title; Google ad costs down 50% on a Ramadan campaign.
 - [Al Riyadh — Customer Experience Automation and AI](https://www.alriyadh.com/2160210)
 - [Asdaf News — SAP technology supports BMW Group KSA in AI-powered customer engagement](https://asdafnews.com/sap-technology-supports-bmw-group-ksa-in-automotive-customer-engagement-with-ai-powered-personalization/)
 - [Emarsys — Driving automotive customer engagement with AI and automation](https://emarsys.com/learn/blog/driving-auto-motive-customer-engagement-with-ai-and-automation/)
