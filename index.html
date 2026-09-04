@@ -216,7 +216,7 @@
     --paper-70: rgba(247, 245, 240, 0.70);
     --paper-55: rgba(247, 245, 240, 0.55);
     --paper-14: rgba(247, 245, 240, 0.14);
-    --maxw: 1080px;
+    --maxw: 1320px;
     --pad: clamp(1.25rem, 5vw, 4.5rem);
     --sans: 'Inter', system-ui, -apple-system, sans-serif;
     --display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
@@ -331,11 +331,35 @@
 
   /* ---- Hero ---- */
   .hero { padding-top: clamp(3rem, 9vw, 6.5rem); padding-bottom: clamp(3rem, 9vw, 6rem); }
+  /* Two columns on desktop so the hero fills the width and the face is the
+     first thing a recruiter sees. Collapses to one column below 900px, with
+     the portrait above the name. */
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: clamp(2rem, 5vw, 4.5rem);
+    align-items: center;
+  }
+  .hero-portrait {
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid var(--ink-12);
+    justify-self: end;
+  }
+  @media (max-width: 900px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .hero-portrait { max-width: 260px; justify-self: start; order: -1; }
+  }
+  /* Visual blocks run the full container; only prose stays capped. */
+  .media-wide { max-width: 100%; }
+  .prose-cap { max-width: 62ch; }
   .hero h1 {
     font-size: clamp(2.4rem, 6vw, 4.4rem);
     font-weight: 700;
     margin: 0 0 1.4rem;
-    max-width: 20ch;
+    max-width: 16ch;
     line-height: 1.04;
   }
   /* The role stays inside the h1 so the plain-text string reads
@@ -354,7 +378,7 @@
     font-weight: 500;
     font-size: clamp(1.15rem, 2.6vw, 1.7rem);
     letter-spacing: -0.01em;
-    max-width: 30ch;
+    max-width: 26ch;
     margin: 0 0 1.6rem;
     color: var(--ink);
   }
@@ -651,6 +675,8 @@
 
 <!-- 1. HERO -->
 <header class="hero wrap" id="top">
+<div class="hero-grid">
+<div>
   <h1>Alawi AlAlawi<span class="role">Digitalization Manager, BMW Group KSA</span></h1>
   <p class="headline">Automotive Digital Transformation &middot; Operational Excellence &middot; Customer Centricity &middot; Growth Explorations</p>
   <p class="value">14 years of DMS automations, OEM projects, CRM and contact-center operations — turned into measurable growth across multiple importers: BMW Group, Ferrari, Maserati, Jaguar, Land Rover, Nissan, Renault, Infiniti, Ford and Lincoln. Riyadh, Saudi Arabia.</p>
@@ -662,11 +688,16 @@
     <a class="btn btn-primary" href="assets/alawi-alalawi-profile.pdf">Profile (PDF) <span class="arrow">↓</span></a>
     <a class="btn btn-ghost" href="https://www.linkedin.com/in/alawialalawi/" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a>
   </div>
+</div>
+<img class="hero-portrait" src="assets/headshot.jpg"
+     alt="Alawi AlAlawi, Digitalization Manager at BMW Group KSA, Riyadh"
+     width="1100" height="1100" loading="eager" decoding="async" />
+</div>
 </header>
 
 <!-- FEATURED: PRESS -->
 <section class="wrap" id="press" style="padding-top:0;">
-  <div style="max-width:46rem;">
+  <div class="media-wide">
     <p class="eyebrow" style="margin-bottom:0.9rem;">In the press</p>
     <img src="assets/press-montage.png" alt="Press quotes from Alawi AlAlawi, Digitalization Manager at BMW Group KSA: Al Riyadh, Ecommerce Fastlane, SAP News MENA and SAP Emarsys, on executing campaigns at the speed of data, real-time eligibility and suppression, and granular segmentation."
          width="2200" height="1330" loading="eager" decoding="async"
@@ -677,7 +708,7 @@
 
 <!-- FEATURED: ON THE RECORD -->
 <section class="wrap" id="onrecord" style="padding-top:0;">
-  <div style="max-width:46rem;">
+  <div class="media-wide">
     <p class="eyebrow" style="margin-bottom:0.9rem;">On the record</p>
     <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border:1px solid var(--ink-12);">
       <iframe src="https://fast.wistia.net/embed/iframe/lsow2s6fc0?videoFoam=false"
